@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<h1> Cadastro </h1>
+
+<form action="recebeDados.c" method="post">
+    Nome: <input type="text" name="nome" id=""><br>
+    Senha: <input type="password" name="senha" id=""><br>
+    Data: <input type="datetime-local" name="data" id=""><br>
+    Color: <input type="color" name="cor" id=""><br>
+
+
+Curso:<br>
+<input type="radio" value="CC"  id="">CC<br>
+<input type="radio" value="ADS"  id="">ADS<br>
+<input type="radio" value="ES"  id="">ES<br>
+
+
+<imput type ="checkbox" value="APE" name="APE" id="">APE<br>
+    <imput type ="checkbox" value="POO" name="POO" id="">POO<br>
+        <imput type ="checkbox" value="SC" name="SC" id="">SC<br>
+
+Estado<select name="estado" id="">
+    <option value="MG">MG</option>
+    <option value="DF">DF</option>
+    <option value="BH">BH</option>
+    <option value="SP">SP</option>
+    <option value="RJ">RJ</option>
+
+</select>
+
+<br>
+observacao:<br>
+</textarea>
+
+ <textarea name ="obs" id="" cols="30" rows="10"> type="submit" value="texto"
+
+
+</form>
+
+</body>
+</html>
